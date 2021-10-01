@@ -13,5 +13,19 @@ body {
     width:200px;
     height:200px;
     border-radius: 50%;
-    animation: circle 1a linear infinite;
+    animation: circle 1s linear infinite;
+}
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px #444444;
+    }
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px #e3a3b3;
+    }
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #da0037;
+    }
 }
