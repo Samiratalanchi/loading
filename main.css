@@ -1,0 +1,17 @@
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}      
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    animation: circle 1a linear infinite;
+}
