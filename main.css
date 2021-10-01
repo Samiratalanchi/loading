@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body {
     background-color: #e5e5e5;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Bebas Neue', cursive;
 }      
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 30px;
+    animation: text 1s infinite;
 }
 #p {
     position: absolute;
@@ -33,5 +36,16 @@ body {
     100% {
         transform: rotate(360deg);
         box-shadow: 1px 5px 2px #da0037;
+    }
+}
+@keyframes text {
+    0% {
+        color: #444444;
+    }
+    33% {
+        color: #e3a3b3;
+    }
+    66%{
+        color: #da0037;
     }
 }
